@@ -1,7 +1,6 @@
 package win.playcode.boiler.admin.admin.db.entity
 
 import org.springframework.data.jpa.domain.support.AuditingEntityListener
-import win.playcode.boiler.core.domain.user.enums.UserStatus
 import java.time.LocalDateTime
 import javax.persistence.*
 
@@ -15,9 +14,6 @@ data class AdminEntity(
 
     var name: String? = null,
     var uid: String? = null,
-
-    @Enumerated(EnumType.STRING)
-    var status: UserStatus? = null,
 
     var lastLoginAt: LocalDateTime? = null,
     var lastAccessedAt: LocalDateTime? = null,

@@ -1,0 +1,1 @@
+/Users/charsyam/develop/charsyam/springboot_boilerplate/step_1/core/build/classes/kotlin/main/win/playcode/boiler/core/domain/user/db/entity/UserEntity.class:/Users/charsyam/develop/charsyam/springboot_boilerplate/step_1/core/build/classes/kotlin/main/win/playcode/boiler/core/domain/user/db/repository/UserRepository.class
